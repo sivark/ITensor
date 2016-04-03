@@ -35,7 +35,7 @@ main(int argc, char* argv[])
     auto Sx = ITensor(s,prime(s));
 
     Sz.set(s(1),prime(s)(1),+0.5);
-    Sz.set(s(1),prime(s)(1),-0.5);
+    Sz.set(s(2),prime(s)(2),-0.5);
 
     Sx.set(s(1),prime(s)(2),+0.5);
     Sx.set(s(2),prime(s)(1),+0.5);
